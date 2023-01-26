@@ -3,3 +3,28 @@
     padding: 0;
     box-sizing: border-box;
 }
+:root{
+    --font:'Roboto', sans-serif;
+    --bg-header:rgba(0, 0, 0, .6);
+}
+
+
+
+body{
+    background: #E2E2E2;
+    font-family: var(--font)
+}
+
+.Conteiner{
+    border: 1px solid red;
+    width: 100vw;
+    height: 100vh;
+}
+
+.Header{
+    border: 1px solid blue;
+    height: 10vh;
+
+    background: var(--bg-header) 
+
+}
