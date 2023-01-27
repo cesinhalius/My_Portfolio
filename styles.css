@@ -6,6 +6,8 @@
 :root{
     --font:'Roboto', sans-serif;
     --bg-header:rgba(0, 0, 0, .6);
+    --color-font:#E2E2E2;
+    --font-weight: 400;
 }
 
 
@@ -27,4 +29,38 @@ body{
 
     background: var(--bg-header) 
 
+}
+
+.list_links{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 10px;
+    gap: 1.9rem;
+}
+
+
+.list_links a{
+    text-decoration: none;
+    color: var(--color-font);
+    text-transform: uppercase;
+    font-weight: var(--font-weight);
+    transition:.25s ease 0s;
+     
+}
+
+.list_links a:hover{
+    opacity: .5;
+}
+
+.list_links .button{
+    display: flex;
+    justify-content: center;
+    border: none;
+    width: 10rem;
+    margin-left: 15px;
+    border-radius: 2rem;
+    padding: 2px;
+    background: #434343;
+    
+    
 }
